@@ -1,0 +1,12 @@
+.mx-filed{
+	border: 1px solid green;
+	padding: 10px;
+}
+.mx-cells{
+	width: 20px;
+	height: 20px;
+	border: 1px solid #333;
+	border-radius: 50%;
+	background-color: #D0DDFF;
+	display: inline-block;
+}

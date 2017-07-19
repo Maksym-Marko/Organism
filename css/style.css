@@ -1,6 +1,38 @@
+body{
+	width: 1250px;
+    position: relative;
+}
+.mx-brain{
+	position: absolute;
+	right: 10px;
+	border: 1px solid green;
+	min-width: 100px;
+	max-width: 200px;
+	min-height: 100px;
+	max-height: 300px;
+	overflow-y: auto;
+	padding: 10px;
+}
+span.mx-log_name_field {
+	position: relative;
+    padding: 10px;
+    color: #ddd;
+}
+span.mx-log_name_field:after{
+	content: '-';
+
+}
 .mx-filed{
 	border: 1px solid green;
 	padding: 10px;
+	position: relative;
+}
+.mx-controller_group_cells{
+	position: absolute;
+	right: -100px;
+	top: 30px;
+	min-width: 50px;
+	border: 1px solid #D68128;
 }
 .mx-cells{
 	width: 20px;
@@ -9,4 +41,15 @@
 	border-radius: 50%;
 	background-color: #D0DDFF;
 	display: inline-block;
+}
+.mx-contr_display_info{
+	font-size: 12px;
+	font-weight: bold;
+	display: block;
+	padding: 4px 10px;
+	margin: 20px auto;
+	border: 1px solid #DCAF22;
+}
+.mx-contr_display_info span{
+	display: block;
 }
